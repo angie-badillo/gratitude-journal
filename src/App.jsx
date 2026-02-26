@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import GratitudeForm from './components/GratitudeForm';
 import QuoteOfDay from './components/QuoteOfDay';
 import PastEntries from './components/PastEntries';
@@ -52,6 +53,7 @@ export default function App() {
 
         <PastEntries entries={entries} />
       </div>
+      <SpeedInsights />
     </div>
   );
 }
