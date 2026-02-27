@@ -14,7 +14,7 @@ export default function GratitudeForm({ onSave }) {
   if (submitted) {
     return (
       <div className="text-center py-6">
-        <div className="text-5xl mb-4">🌿</div>
+        <div className="text-5xl mb-4">🌤️</div>
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">Beautifully done.</h2>
         <p className="text-gray-500 text-sm">Your gratitude has been recorded for today.</p>
         <button
